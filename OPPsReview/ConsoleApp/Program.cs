@@ -105,7 +105,7 @@ namespace ConsoleData
             window.Height = 1.2m;
             window.Manufacturer = "All Weather";
             window.NumberOfPanes = 3;
-            window.Add(window);
+            windows.Add(window);
 
             //loop of prompt/input/validate for doors
             Door door = new Door();
@@ -133,7 +133,7 @@ namespace ConsoleData
             room.Name = "Master Bedroom";
             room.Walls = walls;
             room.Doors = doors;
-            room.Windows = window;
+            room.Windows = windows;
 
             //paint can coverage: 180 sq m
 

@@ -135,7 +135,7 @@ namespace ConsoleData
             room.Doors = doors;
             room.Windows = windows;
 
-            //paint can coverage: 180 sq m
+            //paint can coverage: 27.87 sq m
 
             //how many cans of paint do I need to cover the walls
             //calculate the are of the walls
@@ -160,7 +160,7 @@ namespace ConsoleData
             decimal netWallArea = wallarea - (doorarea + windowarea);
 
             //calculate the number of required paint cans
-            decimal cansOfPaint = netWallArea / 180.0m;
+            decimal cansOfPaint = netWallArea / 27.87m;
 
             //output the results
             Console.WriteLine($"Wall area is:\t{wallarea:0.00}");

@@ -15,21 +15,28 @@
                 <a class="nav-link" href="~/Default.cshtml"
                    style="color:black">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="~/HelloWorld.cshtml"
-                   style="color:black">HelloWorld</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="~/SamplePages/RadioButtons.cshtml"
-                   style="color:black">RadioButtons</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="~/SamplePages/CheckBoxes.cshtml"
-                   style="color:black">CheckBoxes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="~/SamplePages/DropDownList.cshtml"
-                   style="color:black">DropDownList (Select)</a>
+
+            @* Demonstration of setting up a dropdown menu *@
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"
+                   id="navbarSubMenu" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                   Controls
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarSubMenu">
+                    <a class="dropdown-item" href="~/HelloWorld.cshtml"
+                       style="color:black">HelloWorld</a>
+                    <a class="dropdown-item" href="~/SamplePages/RadioButtons.cshtml"
+                       style="color:black">RadioButtons</a>
+                    <a class="dropdown-item" href="~/SamplePages/CheckBoxes.cshtml"
+                       style="color:black">CheckBoxes</a>
+                    <a class="dropdown-item" href="~/SamplePages/DropDownList.cshtml"
+                       style="color:black">DropDownList (Select)</a>
+                    <a class="dropdown-item" href="~/SamplePages/BootStrapFormating.cshtml"
+                       style="color:black">BootStrap Formating</a>
+                    <a class="dropdown-item" href="~/SamplePages/SingleQuery.cshtml"
+                       style="color:black">Single Query Record</a>
+                </div>
             </li>
         </ul>
     </div>
